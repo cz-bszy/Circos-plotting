@@ -25,7 +25,12 @@ for i = 1:length(networks)
         nodeList{end+1,1} = regions{i}{j};
     end
 end
-T = table(networkList, nodeList, 'VariableNames', {'network', 'node'});
+
+sortedData = sortrows(table(networkList, nodeList, labelList), [1, 3]);
+networkList = sortedData.networkList;
+nodeList = sortedData.nodeList;
+labelList = sortedData.labelList;
+T = table(networkList, nodeList, labelList, 'VariableNames', {'network', 'node', 'label'});
 
 network_chr_map = containers.Map({'Core', 'OBJ', 'CRE'}, {'47,85,151', '244,177,131', '192,0,0'});
 
