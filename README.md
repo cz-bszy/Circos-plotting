@@ -14,6 +14,6 @@ This script focuses on transforming and filtering connection data from a `node.t
 This is a configuration file for Circos plotting. You must install the [Circos](http://circos.ca/) software.
 Tips: Ubuntu may easier to install the software.
 
-finally,below plotting will be obtain.
+Finally, the following plots will be obtained.
 
 ![Circos](https://github.com/cz-bszy/Circos-plotting/blob/main/plotting.png)
