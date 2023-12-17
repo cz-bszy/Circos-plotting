@@ -16,4 +16,4 @@ Tips: Ubuntu may easier to install the software.
 
 Finally, the following plots will be obtained.
 
-![Circos](https://github.com/cz-bszy/Circos-plotting/blob/main/plotting.png)
+![Circos](https://github.com/cz-bszy/Circos-plotting/blob/main/Circos.png)
